@@ -1,12 +1,19 @@
 import unittest
+from ddt import ddt, data
 from solution import Solution
 
 
 class SolutionTestCase(unittest.TestCase):
-    def test_something(self):
+
+    @data(
+        [
+        ]
+    )
+    def test_solve(self, value):
+        expected = value
         solution = Solution()
-        solution.solve()
-        self.assertEqual(True, True)  # add assertion here
+        actual = solution.solve()
+        self.assertEqual(expected, actual)  # add assertion here
 
 
 if __name__ == '__main__':
