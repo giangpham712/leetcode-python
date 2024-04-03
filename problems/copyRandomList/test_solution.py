@@ -18,7 +18,6 @@ class SolutionTestCase(unittest.TestCase):
     )
     def test_solve(self, value):
         input, expected = value
-        solution = Solution()
 
         currentNode = None
         nodes = []
@@ -34,6 +33,7 @@ class SolutionTestCase(unittest.TestCase):
             if random is not None:
                 nodes[idx].random = nodes[random]
 
+        solution = Solution()
         copy = solution.solve(nodes[0])
 
         actual = []
