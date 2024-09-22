@@ -26,8 +26,7 @@ Explanation:
 -
 
 
-#### Follow up:
+### Solution: 
 
-- 
-
-### Solution:
+- Iterate the array
+- At each index, calculate the max product and min product

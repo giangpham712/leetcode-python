@@ -26,8 +26,6 @@ Explanation:
 -
 
 
-#### Follow up:
-
-- 
-
 ### Solution:
+
+- Use a increasing monotonic stacking

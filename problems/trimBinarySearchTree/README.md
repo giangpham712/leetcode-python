@@ -26,8 +26,4 @@ Explanation:
 -
 
 
-#### Follow up:
-
-- 
-
-### Solution:
+Follow up: 
